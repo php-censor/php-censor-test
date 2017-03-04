@@ -4,8 +4,15 @@ namespace PHPCensorTest;
 
 class Application
 {
-    public function run()
+    public function success()
     {
-        echo 'application';
+        echo 'success command';
+        exit(0);
+    }
+
+    public function failed()
+    {
+        echo 'failed command';
+        exit(1);
     }
 }
