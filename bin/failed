@@ -6,3 +6,8 @@ require_once APPLICATION_DIR . '/vendor/autoload.php';
 
 $app = new \PHPCensorTest\Application();
 $app->failed();
+
+
+
+
+
