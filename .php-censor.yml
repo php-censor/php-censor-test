@@ -36,6 +36,8 @@ test:
   security_checker:
     allow_failures: true
 
+  technical_debt:
+
 complete:
   email:
     default_mailto_address: poisoncorpsee@gmail.com
