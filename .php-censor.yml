@@ -37,6 +37,7 @@ test:
     allow_failures: true
 
   technical_debt:
+    allow_failures: true
 
 complete:
   email:
