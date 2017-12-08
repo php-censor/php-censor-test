@@ -6,15 +6,16 @@ class Application
 {
     public function success()
     {
-        //TODO: 1
+        // TODO: 1
         echo 'success command';
         exit(0);
     }
 
     public function failed()
     {
-        //TODO: 2
+        // TODO: 2
         echo 'failed command';
+        // FIXME: 3
         exit(1);
     }
 }
