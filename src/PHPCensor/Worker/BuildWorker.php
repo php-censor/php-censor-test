@@ -61,6 +61,7 @@ class BuildWorker
      */
     public function __construct($host, $queue)
     {
+        // string $host FIXME : string $host
         $this->host       = $host;
         $this->queue      = $queue;
         $this->pheanstalk = new Pheanstalk($this->host);
