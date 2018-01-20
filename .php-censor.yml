@@ -13,6 +13,9 @@ test:
     config:
       - phpunit.xml
 
+  pdepend:
+    directory: ./src
+
   php_mess_detector:
     allow_failures: true
 
