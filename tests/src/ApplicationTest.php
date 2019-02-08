@@ -95,4 +95,43 @@ class ApplicationTest extends \PHPUnit_Framework_TestCase
         
         $this->assertInstanceOf('PHPCensorTest\\Application', $application);
     }
+
+    public function testSampleIncomplete()
+    {
+        $this->markTestIncomplete(
+            'Incomplete test "testSampleIncomplete"!'
+        );
+
+        $application = new Application();
+
+        sleep(10);
+
+        $this->assertInstanceOf('PHPCensorTest\\Application', $application);
+    }
+
+    public function testSampleIncomplete2()
+    {
+        $this->markTestIncomplete(
+            'Incomplete test "testSampleIncomplete2"!'
+        );
+
+        $application = new Application();
+
+        sleep(10);
+
+        $this->assertInstanceOf('PHPCensorTest\\Application', $application);
+    }
+
+    public function testSampleIncomplete3()
+    {
+        $this->markTestIncomplete(
+            'Incomplete test "testSampleIncomplete2"!'
+        );
+
+        $application = new Application();
+
+        sleep(10);
+
+        $this->assertInstanceOf('PHPCensorTest\\Application', $application);
+    }
 }
